@@ -1,3 +1,5 @@
+#!/bin/bash -e
+
 echo Setting credentials to $USERNAME:$PASSWORD
 PASSWORD=$(perl -e 'print crypt($ARGV[0], "password")' $PASSWORD)
 useradd -m -p $PASSWORD $USERNAME
