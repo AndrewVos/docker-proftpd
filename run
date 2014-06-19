@@ -8,4 +8,4 @@ docker run -i -t \
   -e USERNAME=$USERNAME \
   -e PASSWORD=$PASSWORD \
   -v `pwd`/ftp:/ftp \
-  andrewvos/vsftpd
+  andrewvos/docker-vsftpd
